@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DE297B1229D111200773585 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297B0229D111200773585 /* AppDelegate.m */; };
+		4DE297B4229D111200773585 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297B3229D111200773585 /* ViewController.m */; };
+		4DE297B7229D111200773585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE297B5229D111200773585 /* Main.storyboard */; };
+		4DE297B9229D111500773585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE297B8229D111500773585 /* Assets.xcassets */; };
+		4DE297BC229D111500773585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE297BA229D111500773585 /* LaunchScreen.storyboard */; };
+		4DE297BF229D111500773585 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297BE229D111500773585 /* main.m */; };
+		4DE297C9229D111500773585 /* ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297C8229D111500773585 /* ToolsTests.m */; };
+		4DE297D4229D111500773585 /* ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297D3229D111500773585 /* ToolsUITests.m */; };
+		4DE29822229D119700773585 /* BLCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297E2229D119600773585 /* BLCommonUtils.m */; };
+		4DE29823229D119700773585 /* UIColor+BLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297E4229D119600773585 /* UIColor+BLCategory.m */; };
+		4DE29824229D119700773585 /* UIView+BLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297E5229D119600773585 /* UIView+BLCategory.m */; };
+		4DE29825229D119700773585 /* BLCommonWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297E6229D119600773585 /* BLCommonWebViewController.m */; };
+		4DE29826229D119700773585 /* UIAlertAction+BLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297E7229D119600773585 /* UIAlertAction+BLCategory.m */; };
+		4DE29827229D119700773585 /* BLCustomDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297E8229D119600773585 /* BLCustomDeviceInfo.m */; };
+		4DE29828229D119700773585 /* BLWeatherDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297EA229D119600773585 /* BLWeatherDTO.m */; };
+		4DE29829229D119700773585 /* BLRoutesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297EB229D119600773585 /* BLRoutesManager.m */; };
+		4DE2982A229D119700773585 /* BLTableViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297EC229D119600773585 /* BLTableViewConfig.m */; };
+		4DE2982C229D119700773585 /* BLNotificationTempInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297EF229D119600773585 /* BLNotificationTempInfo.m */; };
+		4DE2982D229D119700773585 /* BLDeviceLinkageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297F0229D119600773585 /* BLDeviceLinkageInfo.m */; };
+		4DE2982E229D119700773585 /* BLDeviceLinkageInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297F2229D119600773585 /* BLDeviceLinkageInfoManager.m */; };
+		4DE2982F229D119700773585 /* BLNotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297F7229D119600773585 /* BLNotificationService.m */; };
+		4DE29830229D119700773585 /* BLNotificationLinkageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297F8229D119600773585 /* BLNotificationLinkageInfo.m */; };
+		4DE29831229D119700773585 /* UITableView+BLEmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE297FB229D119600773585 /* UITableView+BLEmptyData.m */; };
+		4DE29833229D119700773585 /* BLSqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29802229D119700773585 /* BLSqliteManager.m */; };
+		4DE29834229D119700773585 /* BLWeatherUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29808229D119700773585 /* BLWeatherUtils.m */; };
+		4DE29835229D119700773585 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2980E229D119700773585 /* MBProgressHUD.m */; };
+		4DE29836229D119700773585 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4DE2980F229D119700773585 /* LICENSE */; };
+		4DE29837229D119700773585 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 4DE29811229D119700773585 /* README.mdown */; };
+		4DE29838229D119700773585 /* UIImage+BLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29813229D119700773585 /* UIImage+BLCategory.m */; };
+		4DE29839229D119700773585 /* BLUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29815229D119700773585 /* BLUserCenter.m */; };
+		4DE2983A229D119700773585 /* NSString+BLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29817229D119700773585 /* NSString+BLCategory.m */; };
+		4DE2983C229D119700773585 /* UITextField+BLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2981B229D119700773585 /* UITextField+BLCategory.m */; };
+		4DE2983D229D119700773585 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2981D229D119700773585 /* JSONKit.m */; };
+		4DE2983E229D119700773585 /* BLCalculagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2981F229D119700773585 /* BLCalculagraph.m */; };
+		4DE29840229D119700773585 /* BLHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29821229D119700773585 /* BLHttpClient.m */; };
+		4DE2984F229D13E400773585 /* BLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29843229D13E400773585 /* BLBaseViewController.m */; };
+		4DE29850229D13E400773585 /* UIPickerView+DelegateBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29847229D13E400773585 /* UIPickerView+DelegateBlocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4DE29851229D13E400773585 /* UIPickerView+DataSourceBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29848229D13E400773585 /* UIPickerView+DataSourceBlocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4DE29853229D13E400773585 /* UIBarButtonItem+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2984C229D13E400773585 /* UIBarButtonItem+Blocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DE297C5229D111500773585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE297A4229D111200773585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE297AB229D111200773585;
+			remoteInfo = Tools;
+		};
+		4DE297D0229D111500773585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE297A4229D111200773585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE297AB229D111200773585;
+			remoteInfo = Tools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DE297AC229D111200773585 /* Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE297AF229D111200773585 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DE297B0229D111200773585 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DE297B2229D111200773585 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DE297B3229D111200773585 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DE297B6229D111200773585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DE297B8229D111500773585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DE297BB229D111500773585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DE297BD229D111500773585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE297BE229D111500773585 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DE297C4229D111500773585 /* ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE297C8229D111500773585 /* ToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsTests.m; sourceTree = "<group>"; };
+		4DE297CA229D111500773585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE297CF229D111500773585 /* ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE297D3229D111500773585 /* ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsUITests.m; sourceTree = "<group>"; };
+		4DE297D5229D111500773585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE297E2229D119600773585 /* BLCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCommonUtils.m; sourceTree = "<group>"; };
+		4DE297E3229D119600773585 /* BLWeatherUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLWeatherUtils.h; sourceTree = "<group>"; };
+		4DE297E4229D119600773585 /* UIColor+BLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BLCategory.m"; sourceTree = "<group>"; };
+		4DE297E5229D119600773585 /* UIView+BLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BLCategory.m"; sourceTree = "<group>"; };
+		4DE297E6229D119600773585 /* BLCommonWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCommonWebViewController.m; sourceTree = "<group>"; };
+		4DE297E7229D119600773585 /* UIAlertAction+BLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertAction+BLCategory.m"; sourceTree = "<group>"; };
+		4DE297E8229D119600773585 /* BLCustomDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCustomDeviceInfo.m; sourceTree = "<group>"; };
+		4DE297E9229D119600773585 /* BLGlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLGlobalDefine.h; sourceTree = "<group>"; };
+		4DE297EA229D119600773585 /* BLWeatherDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLWeatherDTO.m; sourceTree = "<group>"; };
+		4DE297EB229D119600773585 /* BLRoutesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRoutesManager.m; sourceTree = "<group>"; };
+		4DE297EC229D119600773585 /* BLTableViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTableViewConfig.m; sourceTree = "<group>"; };
+		4DE297EF229D119600773585 /* BLNotificationTempInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNotificationTempInfo.m; sourceTree = "<group>"; };
+		4DE297F0229D119600773585 /* BLDeviceLinkageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDeviceLinkageInfo.m; sourceTree = "<group>"; };
+		4DE297F1229D119600773585 /* BLNotificationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNotificationService.h; sourceTree = "<group>"; };
+		4DE297F2229D119600773585 /* BLDeviceLinkageInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDeviceLinkageInfoManager.m; sourceTree = "<group>"; };
+		4DE297F3229D119600773585 /* BLNotificationLinkageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNotificationLinkageInfo.h; sourceTree = "<group>"; };
+		4DE297F4229D119600773585 /* BLDeviceLinkageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDeviceLinkageInfo.h; sourceTree = "<group>"; };
+		4DE297F5229D119600773585 /* BLNotificationTempInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNotificationTempInfo.h; sourceTree = "<group>"; };
+		4DE297F6229D119600773585 /* BLDeviceLinkageInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDeviceLinkageInfoManager.h; sourceTree = "<group>"; };
+		4DE297F7229D119600773585 /* BLNotificationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNotificationService.m; sourceTree = "<group>"; };
+		4DE297F8229D119600773585 /* BLNotificationLinkageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNotificationLinkageInfo.m; sourceTree = "<group>"; };
+		4DE297F9229D119600773585 /* NSString+BLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BLCategory.h"; sourceTree = "<group>"; };
+		4DE297FA229D119600773585 /* BLUserCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLUserCenter.h; sourceTree = "<group>"; };
+		4DE297FB229D119600773585 /* UITableView+BLEmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BLEmptyData.m"; sourceTree = "<group>"; };
+		4DE297FC229D119700773585 /* UIImage+BLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BLCategory.h"; sourceTree = "<group>"; };
+		4DE297FE229D119700773585 /* BLHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLHttpClient.h; sourceTree = "<group>"; };
+		4DE29800229D119700773585 /* BLCalculagraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCalculagraph.h; sourceTree = "<group>"; };
+		4DE29801229D119700773585 /* UITextField+BLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BLCategory.h"; sourceTree = "<group>"; };
+		4DE29802229D119700773585 /* BLSqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSqliteManager.m; sourceTree = "<group>"; };
+		4DE29804229D119700773585 /* UIAlertAction+BLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertAction+BLCategory.h"; sourceTree = "<group>"; };
+		4DE29805229D119700773585 /* UIView+BLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BLCategory.h"; sourceTree = "<group>"; };
+		4DE29806229D119700773585 /* BLCommonWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCommonWebViewController.h; sourceTree = "<group>"; };
+		4DE29807229D119700773585 /* UIColor+BLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BLCategory.h"; sourceTree = "<group>"; };
+		4DE29808229D119700773585 /* BLWeatherUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLWeatherUtils.m; sourceTree = "<group>"; };
+		4DE29809229D119700773585 /* BLCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCommonUtils.h; sourceTree = "<group>"; };
+		4DE2980A229D119700773585 /* BLRoutesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRoutesManager.h; sourceTree = "<group>"; };
+		4DE2980B229D119700773585 /* BLWeatherDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLWeatherDTO.h; sourceTree = "<group>"; };
+		4DE2980C229D119700773585 /* BLCustomDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCustomDeviceInfo.h; sourceTree = "<group>"; };
+		4DE2980E229D119700773585 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4DE2980F229D119700773585 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4DE29810229D119700773585 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4DE29811229D119700773585 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		4DE29813229D119700773585 /* UIImage+BLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BLCategory.m"; sourceTree = "<group>"; };
+		4DE29814229D119700773585 /* UITableView+BLEmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+BLEmptyData.h"; sourceTree = "<group>"; };
+		4DE29815229D119700773585 /* BLUserCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLUserCenter.m; sourceTree = "<group>"; };
+		4DE29817229D119700773585 /* NSString+BLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BLCategory.m"; sourceTree = "<group>"; };
+		4DE29818229D119700773585 /* BLTableViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTableViewConfig.h; sourceTree = "<group>"; };
+		4DE2981A229D119700773585 /* BLSqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSqliteManager.h; sourceTree = "<group>"; };
+		4DE2981B229D119700773585 /* UITextField+BLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BLCategory.m"; sourceTree = "<group>"; };
+		4DE2981D229D119700773585 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4DE2981E229D119700773585 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4DE2981F229D119700773585 /* BLCalculagraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCalculagraph.m; sourceTree = "<group>"; };
+		4DE29821229D119700773585 /* BLHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLHttpClient.m; sourceTree = "<group>"; };
+		4DE29843229D13E400773585 /* BLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBaseViewController.m; sourceTree = "<group>"; };
+		4DE29845229D13E400773585 /* UIPickerView+DelegateBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+DelegateBlocks.h"; sourceTree = "<group>"; };
+		4DE29846229D13E400773585 /* UIPickerView+DataSourceBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+DataSourceBlocks.h"; sourceTree = "<group>"; };
+		4DE29847229D13E400773585 /* UIPickerView+DelegateBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+DelegateBlocks.m"; sourceTree = "<group>"; };
+		4DE29848229D13E400773585 /* UIPickerView+DataSourceBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+DataSourceBlocks.m"; sourceTree = "<group>"; };
+		4DE2984A229D13E400773585 /* BLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBaseViewController.h; sourceTree = "<group>"; };
+		4DE2984C229D13E400773585 /* UIBarButtonItem+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Blocks.m"; sourceTree = "<group>"; };
+		4DE2984D229D13E400773585 /* UIBarButtonItem+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Blocks.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DE297A9229D111200773585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE297C1229D111500773585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE297CC229D111500773585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DE297A3229D111200773585 = {
+			isa = PBXGroup;
+			children = (
+				4DE297AE229D111200773585 /* Tools */,
+				4DE297C7229D111500773585 /* ToolsTests */,
+				4DE297D2229D111500773585 /* ToolsUITests */,
+				4DE297AD229D111200773585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DE297AD229D111200773585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DE297AC229D111200773585 /* Tools.app */,
+				4DE297C4229D111500773585 /* ToolsTests.xctest */,
+				4DE297CF229D111500773585 /* ToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE297AE229D111200773585 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4DE29842229D13E400773585 /* BLBase */,
+				4DE297E1229D119600773585 /* BLUtils */,
+				4DE297AF229D111200773585 /* AppDelegate.h */,
+				4DE297B0229D111200773585 /* AppDelegate.m */,
+				4DE297B2229D111200773585 /* ViewController.h */,
+				4DE297B3229D111200773585 /* ViewController.m */,
+				4DE297B5229D111200773585 /* Main.storyboard */,
+				4DE297B8229D111500773585 /* Assets.xcassets */,
+				4DE297BA229D111500773585 /* LaunchScreen.storyboard */,
+				4DE297BD229D111500773585 /* Info.plist */,
+				4DE297BE229D111500773585 /* main.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4DE297C7229D111500773585 /* ToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DE297C8229D111500773585 /* ToolsTests.m */,
+				4DE297CA229D111500773585 /* Info.plist */,
+			);
+			path = ToolsTests;
+			sourceTree = "<group>";
+		};
+		4DE297D2229D111500773585 /* ToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DE297D3229D111500773585 /* ToolsUITests.m */,
+				4DE297D5229D111500773585 /* Info.plist */,
+			);
+			path = ToolsUITests;
+			sourceTree = "<group>";
+		};
+		4DE297E1229D119600773585 /* BLUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4DE297E9229D119600773585 /* BLGlobalDefine.h */,
+				4DE29841229D12CB00773585 /* Category */,
+				4DE297E3229D119600773585 /* BLWeatherUtils.h */,
+				4DE29808229D119700773585 /* BLWeatherUtils.m */,
+				4DE29809229D119700773585 /* BLCommonUtils.h */,
+				4DE297E2229D119600773585 /* BLCommonUtils.m */,
+				4DE29806229D119700773585 /* BLCommonWebViewController.h */,
+				4DE297E6229D119600773585 /* BLCommonWebViewController.m */,
+				4DE2980B229D119700773585 /* BLWeatherDTO.h */,
+				4DE297EA229D119600773585 /* BLWeatherDTO.m */,
+				4DE2980A229D119700773585 /* BLRoutesManager.h */,
+				4DE297EB229D119600773585 /* BLRoutesManager.m */,
+				4DE2980C229D119700773585 /* BLCustomDeviceInfo.h */,
+				4DE297E8229D119600773585 /* BLCustomDeviceInfo.m */,
+				4DE297EE229D119600773585 /* Notification */,
+				4DE297FA229D119600773585 /* BLUserCenter.h */,
+				4DE29815229D119700773585 /* BLUserCenter.m */,
+				4DE297FE229D119700773585 /* BLHttpClient.h */,
+				4DE29821229D119700773585 /* BLHttpClient.m */,
+				4DE297FB229D119600773585 /* UITableView+BLEmptyData.m */,
+				4DE29814229D119700773585 /* UITableView+BLEmptyData.h */,
+				4DE29800229D119700773585 /* BLCalculagraph.h */,
+				4DE2981F229D119700773585 /* BLCalculagraph.m */,
+				4DE2980D229D119700773585 /* MBProgressHUD */,
+				4DE29818229D119700773585 /* BLTableViewConfig.h */,
+				4DE297EC229D119600773585 /* BLTableViewConfig.m */,
+				4DE2981A229D119700773585 /* BLSqliteManager.h */,
+				4DE29802229D119700773585 /* BLSqliteManager.m */,
+				4DE2981C229D119700773585 /* JSONKit */,
+			);
+			path = BLUtils;
+			sourceTree = "<group>";
+		};
+		4DE297EE229D119600773585 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				4DE297EF229D119600773585 /* BLNotificationTempInfo.m */,
+				4DE297F0229D119600773585 /* BLDeviceLinkageInfo.m */,
+				4DE297F1229D119600773585 /* BLNotificationService.h */,
+				4DE297F2229D119600773585 /* BLDeviceLinkageInfoManager.m */,
+				4DE297F3229D119600773585 /* BLNotificationLinkageInfo.h */,
+				4DE297F4229D119600773585 /* BLDeviceLinkageInfo.h */,
+				4DE297F5229D119600773585 /* BLNotificationTempInfo.h */,
+				4DE297F6229D119600773585 /* BLDeviceLinkageInfoManager.h */,
+				4DE297F7229D119600773585 /* BLNotificationService.m */,
+				4DE297F8229D119600773585 /* BLNotificationLinkageInfo.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		4DE2980D229D119700773585 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2980E229D119700773585 /* MBProgressHUD.m */,
+				4DE2980F229D119700773585 /* LICENSE */,
+				4DE29810229D119700773585 /* MBProgressHUD.h */,
+				4DE29811229D119700773585 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		4DE2981C229D119700773585 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2981D229D119700773585 /* JSONKit.m */,
+				4DE2981E229D119700773585 /* JSONKit.h */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		4DE29841229D12CB00773585 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4DE297FC229D119700773585 /* UIImage+BLCategory.h */,
+				4DE29813229D119700773585 /* UIImage+BLCategory.m */,
+				4DE29804229D119700773585 /* UIAlertAction+BLCategory.h */,
+				4DE297E7229D119600773585 /* UIAlertAction+BLCategory.m */,
+				4DE29801229D119700773585 /* UITextField+BLCategory.h */,
+				4DE2981B229D119700773585 /* UITextField+BLCategory.m */,
+				4DE297F9229D119600773585 /* NSString+BLCategory.h */,
+				4DE29817229D119700773585 /* NSString+BLCategory.m */,
+				4DE29807229D119700773585 /* UIColor+BLCategory.h */,
+				4DE297E4229D119600773585 /* UIColor+BLCategory.m */,
+				4DE29805229D119700773585 /* UIView+BLCategory.h */,
+				4DE297E5229D119600773585 /* UIView+BLCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4DE29842229D13E400773585 /* BLBase */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2984A229D13E400773585 /* BLBaseViewController.h */,
+				4DE29843229D13E400773585 /* BLBaseViewController.m */,
+				4DE29844229D13E400773585 /* UIPickerView+Block */,
+				4DE2984B229D13E400773585 /* UIBarButtonItem+Block */,
+			);
+			path = BLBase;
+			sourceTree = "<group>";
+		};
+		4DE29844229D13E400773585 /* UIPickerView+Block */ = {
+			isa = PBXGroup;
+			children = (
+				4DE29845229D13E400773585 /* UIPickerView+DelegateBlocks.h */,
+				4DE29847229D13E400773585 /* UIPickerView+DelegateBlocks.m */,
+				4DE29846229D13E400773585 /* UIPickerView+DataSourceBlocks.h */,
+				4DE29848229D13E400773585 /* UIPickerView+DataSourceBlocks.m */,
+			);
+			path = "UIPickerView+Block";
+			sourceTree = "<group>";
+		};
+		4DE2984B229D13E400773585 /* UIBarButtonItem+Block */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2984D229D13E400773585 /* UIBarButtonItem+Blocks.h */,
+				4DE2984C229D13E400773585 /* UIBarButtonItem+Blocks.m */,
+			);
+			path = "UIBarButtonItem+Block";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DE297AB229D111200773585 /* Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE297D8229D111500773585 /* Build configuration list for PBXNativeTarget "Tools" */;
+			buildPhases = (
+				4DE297A8229D111200773585 /* Sources */,
+				4DE297A9229D111200773585 /* Frameworks */,
+				4DE297AA229D111200773585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tools;
+			productName = Tools;
+			productReference = 4DE297AC229D111200773585 /* Tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DE297C3229D111500773585 /* ToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE297DB229D111500773585 /* Build configuration list for PBXNativeTarget "ToolsTests" */;
+			buildPhases = (
+				4DE297C0229D111500773585 /* Sources */,
+				4DE297C1229D111500773585 /* Frameworks */,
+				4DE297C2229D111500773585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DE297C6229D111500773585 /* PBXTargetDependency */,
+			);
+			name = ToolsTests;
+			productName = ToolsTests;
+			productReference = 4DE297C4229D111500773585 /* ToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DE297CE229D111500773585 /* ToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE297DE229D111500773585 /* Build configuration list for PBXNativeTarget "ToolsUITests" */;
+			buildPhases = (
+				4DE297CB229D111500773585 /* Sources */,
+				4DE297CC229D111500773585 /* Frameworks */,
+				4DE297CD229D111500773585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DE297D1229D111500773585 /* PBXTargetDependency */,
+			);
+			name = ToolsUITests;
+			productName = ToolsUITests;
+			productReference = 4DE297CF229D111500773585 /* ToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DE297A4229D111200773585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "赵宁";
+				TargetAttributes = {
+					4DE297AB229D111200773585 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4DE297C3229D111500773585 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4DE297AB229D111200773585;
+					};
+					4DE297CE229D111500773585 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4DE297AB229D111200773585;
+					};
+				};
+			};
+			buildConfigurationList = 4DE297A7229D111200773585 /* Build configuration list for PBXProject "Tools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DE297A3229D111200773585;
+			productRefGroup = 4DE297AD229D111200773585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DE297AB229D111200773585 /* Tools */,
+				4DE297C3229D111500773585 /* ToolsTests */,
+				4DE297CE229D111500773585 /* ToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE297AA229D111200773585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE297BC229D111500773585 /* LaunchScreen.storyboard in Resources */,
+				4DE297B9229D111500773585 /* Assets.xcassets in Resources */,
+				4DE29836229D119700773585 /* LICENSE in Resources */,
+				4DE297B7229D111200773585 /* Main.storyboard in Resources */,
+				4DE29837229D119700773585 /* README.mdown in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE297C2229D111500773585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE297CD229D111500773585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DE297A8229D111200773585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE2983D229D119700773585 /* JSONKit.m in Sources */,
+				4DE2984F229D13E400773585 /* BLBaseViewController.m in Sources */,
+				4DE29826229D119700773585 /* UIAlertAction+BLCategory.m in Sources */,
+				4DE2983C229D119700773585 /* UITextField+BLCategory.m in Sources */,
+				4DE2982A229D119700773585 /* BLTableViewConfig.m in Sources */,
+				4DE29850229D13E400773585 /* UIPickerView+DelegateBlocks.m in Sources */,
+				4DE29835229D119700773585 /* MBProgressHUD.m in Sources */,
+				4DE2982F229D119700773585 /* BLNotificationService.m in Sources */,
+				4DE2982C229D119700773585 /* BLNotificationTempInfo.m in Sources */,
+				4DE2983A229D119700773585 /* NSString+BLCategory.m in Sources */,
+				4DE29825229D119700773585 /* BLCommonWebViewController.m in Sources */,
+				4DE29830229D119700773585 /* BLNotificationLinkageInfo.m in Sources */,
+				4DE29833229D119700773585 /* BLSqliteManager.m in Sources */,
+				4DE29828229D119700773585 /* BLWeatherDTO.m in Sources */,
+				4DE297B4229D111200773585 /* ViewController.m in Sources */,
+				4DE2982E229D119700773585 /* BLDeviceLinkageInfoManager.m in Sources */,
+				4DE29829229D119700773585 /* BLRoutesManager.m in Sources */,
+				4DE2982D229D119700773585 /* BLDeviceLinkageInfo.m in Sources */,
+				4DE29831229D119700773585 /* UITableView+BLEmptyData.m in Sources */,
+				4DE2983E229D119700773585 /* BLCalculagraph.m in Sources */,
+				4DE29851229D13E400773585 /* UIPickerView+DataSourceBlocks.m in Sources */,
+				4DE297BF229D111500773585 /* main.m in Sources */,
+				4DE29853229D13E400773585 /* UIBarButtonItem+Blocks.m in Sources */,
+				4DE29840229D119700773585 /* BLHttpClient.m in Sources */,
+				4DE29824229D119700773585 /* UIView+BLCategory.m in Sources */,
+				4DE29834229D119700773585 /* BLWeatherUtils.m in Sources */,
+				4DE29822229D119700773585 /* BLCommonUtils.m in Sources */,
+				4DE29823229D119700773585 /* UIColor+BLCategory.m in Sources */,
+				4DE29827229D119700773585 /* BLCustomDeviceInfo.m in Sources */,
+				4DE297B1229D111200773585 /* AppDelegate.m in Sources */,
+				4DE29839229D119700773585 /* BLUserCenter.m in Sources */,
+				4DE29838229D119700773585 /* UIImage+BLCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE297C0229D111500773585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE297C9229D111500773585 /* ToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE297CB229D111500773585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE297D4229D111500773585 /* ToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DE297C6229D111500773585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DE297AB229D111200773585 /* Tools */;
+			targetProxy = 4DE297C5229D111500773585 /* PBXContainerItemProxy */;
+		};
+		4DE297D1229D111500773585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DE297AB229D111200773585 /* Tools */;
+			targetProxy = 4DE297D0229D111500773585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DE297B5229D111200773585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE297B6229D111200773585 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DE297BA229D111500773585 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE297BB229D111500773585 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DE297D6229D111500773585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DE297D7229D111500773585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DE297D9229D111500773585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQ85Q9UV8;
+				INFOPLIST_FILE = Tools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davell.Tools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DE297DA229D111500773585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQ85Q9UV8;
+				INFOPLIST_FILE = Tools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davell.Tools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DE297DC229D111500773585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQ85Q9UV8;
+				INFOPLIST_FILE = ToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davell.ToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tools.app/Tools";
+			};
+			name = Debug;
+		};
+		4DE297DD229D111500773585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQ85Q9UV8;
+				INFOPLIST_FILE = ToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davell.ToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tools.app/Tools";
+			};
+			name = Release;
+		};
+		4DE297DF229D111500773585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQ85Q9UV8;
+				INFOPLIST_FILE = ToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davell.ToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tools;
+			};
+			name = Debug;
+		};
+		4DE297E0229D111500773585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQ85Q9UV8;
+				INFOPLIST_FILE = ToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davell.ToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DE297A7229D111200773585 /* Build configuration list for PBXProject "Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE297D6229D111500773585 /* Debug */,
+				4DE297D7229D111500773585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE297D8229D111500773585 /* Build configuration list for PBXNativeTarget "Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE297D9229D111500773585 /* Debug */,
+				4DE297DA229D111500773585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE297DB229D111500773585 /* Build configuration list for PBXNativeTarget "ToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE297DC229D111500773585 /* Debug */,
+				4DE297DD229D111500773585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE297DE229D111500773585 /* Build configuration list for PBXNativeTarget "ToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE297DF229D111500773585 /* Debug */,
+				4DE297E0229D111500773585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DE297A4229D111200773585 /* Project object */;
+}
